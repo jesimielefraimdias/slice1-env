@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-dev libmysqlclient-dev build-essential -y
+python3 -m venv slice1-env
+cd slice1-env
+source bin/activate
+pip install --upgrade pip
+python -m pip install -r requirements.txt
+export FLASK_APP=App.py
+flask run
