@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 14 18:57:44 2019
-@author: seraj
-"""
 import time
 import cv2
 import os
@@ -18,7 +13,7 @@ def index():
 
 def gen():
     """Video streaming generator function."""
-    cap = cv2.VideoCapture(os.path.abspath('assets/768x576.avi'))
+    cap = cv2.VideoCapture(os.path.abspath('assets/movie.avi'))
 
     # Read until video is completed
     while(cap.isOpened()):

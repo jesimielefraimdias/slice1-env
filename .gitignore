@@ -6,4 +6,6 @@ lib64
 share/
 __pycache__/
 __pycache__
+App.pyc
+App.pyc/
 pyvenv.cfg
